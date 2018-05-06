@@ -14,7 +14,7 @@ _This app will let you shop from different online artisans._
 
 * _Clone this repository_
 * _Open a simple HTTP server in the top level of the cloned directory. For a mac, run the following command in your terminal:_
-* _cd etsy_
+* _cd etsy-clone_
 * _atom ._
 * _Then open your web browser of choice to index.html_
 
@@ -23,7 +23,7 @@ _This app will let you shop from different online artisans._
 1) App should have a tab to search for items or shops.
 2) App should have a tab to sell on Etsy, register, sign in, or view their cart.
 3) App should have a tabs to view jewelry & accessories, clothes & shoes, home & living, wedding & party, toys & entertainment, art & collectibles, craft supplies & tools, and vintage.
-4) App should display different items on home page.
+4) App should display different items to buy on home page.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
