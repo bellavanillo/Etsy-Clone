@@ -28,7 +28,7 @@ export const firebaseConfig = {
     ListingDetailComponent,
     AddComponent,
     EditComponent,
-    AdminComponent
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
