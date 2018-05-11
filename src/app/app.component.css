@@ -1,0 +1,12 @@
+#logo{
+  color: #ef6717;
+  font-size: 40px;
+}
+
+a, button {
+  color: #ef6717;
+}
+#searchbar {
+  min-width:40%;
+  border: 1px solid grey;
+}
