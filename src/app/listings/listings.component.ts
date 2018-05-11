@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Listing } from '../listing.model';
-
+import { Router } from '@angular/router';
+import { ListingService } from '../listing.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-listings',
@@ -10,11 +12,16 @@ import { Listing } from '../listing.model';
 })
 
 export class ListingsComponent implements OnInit {
+  listings: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  goToListing(clickedListing) {
+    this.router.navigate(['listings', clickedListing.$key]);
+  };
+
+  constructor(private router: Router, private listingService: ListingService) { }
 
   ngOnInit() {
-
+    this.listings = this.listingService.getListings();
   }
 
 }
