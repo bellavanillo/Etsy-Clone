@@ -1,17 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AppComponent } from './app.component';
-import { AddComponent } from './add/add.component';
-import { AdminComponent } from './admin/admin.component';
-import { EditComponent } from './edit/edit.component';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { ListingDetailComponent } from './listing-detail/listing-detail.component';
 import { ListingsComponent } from './listings/listings.component';
+import { ListingDetailComponent } from './listing-detail/listing-detail.component';
+import { AddComponent } from './add/add.component';
+import { EditComponent } from './edit/edit.component';
+import { AdminComponent } from './admin/admin.component';
+import { FormsModule } from '@angular/forms';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -20,16 +20,15 @@ export const firebaseConfig = {
   storageBucket: masterFirebaseConfig.storageBucket
 };
 
-
 @NgModule({
   declarations: [
     AppComponent,
-    AddComponent,
-    AdminComponent,
-    EditComponent,
     WelcomeComponent,
+    ListingsComponent,
     ListingDetailComponent,
-    ListingsComponent
+    AddComponent,
+    EditComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
