@@ -21,13 +21,6 @@ _This app will let you shop from different online artisans in the pet supplies s
 ## Specifications
 
 ### Completed
-*
-*
-*
-* 
-
-
-### in Progress
 * Customers should be able to view listings in pet supplies section.
 * Customers should be able to edit listings.
 * Customers should be able to add listings.
