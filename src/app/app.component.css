@@ -1,12 +1,20 @@
 #logo{
   color: #ef6717;
   font-size: 40px;
+  font-family: serif;
 }
 
-a, button {
+a{
   color: #ef6717;
 }
-#searchbar {
+button {
+
+  background-color: #ef6717;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+input {
   min-width:40%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
