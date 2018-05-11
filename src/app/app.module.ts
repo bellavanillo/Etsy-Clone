@@ -7,7 +7,10 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AddComponent } from './add/add.component';
 import { AdminComponent } from './admin/admin.component';
-import { ListingComponent } from './listing/listing.component';
+import { EditComponent } from './edit/edit.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { ListingDetailComponent } from './listing-detail/listing-detail.component';
+import { ListingsComponent } from './listings/listings.component';
 
 
 
@@ -17,7 +20,10 @@ import { ListingComponent } from './listing/listing.component';
     AppComponent,
     AddComponent,
     AdminComponent,
-    ListingComponent
+    EditComponent,
+    WelcomeComponent,
+    ListingDetailComponent,
+    ListingsComponent
   ],
   imports: [
     BrowserModule, FormsModule
