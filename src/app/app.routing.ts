@@ -9,7 +9,7 @@ import { AdminComponent } from './admin/admin.component';
 const appRoutes: Routes = [
   {
     path: '',
-    component: WelcomeComponent
+    component: ListingsComponent
   },
   {
     path: 'listings',
@@ -27,10 +27,6 @@ const appRoutes: Routes = [
     path: 'admin',
     component: AdminComponent
   },
-  {
-    path: 'welcome',
-    component: WelcomeComponent
-  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
