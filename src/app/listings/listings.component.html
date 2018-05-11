@@ -2,7 +2,6 @@
 
 <div *ngFor="let listing of listings | async">
   <h4 (click)="goToListing(listing)">{{listing.name}}</h4>
-  <p>{{listing.image}}</p>
   <p>{{listing.description}}</p>
   <div *ngIf="currentRoute === '/admin'">
     {{listing.description}}
