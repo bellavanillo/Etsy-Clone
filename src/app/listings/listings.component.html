@@ -1,6 +1,6 @@
 <h2>Pet Supplies</h2>
 
-<div *ngFor="let listing of listings | async">
+<div id="listing" *ngFor="let listing of listings | async">
   <h4 (click)="goToListing(listing)">{{listing.name}}</h4>
   <p>{{listing.description}}</p>
   <div *ngIf="currentRoute === '/admin'">
