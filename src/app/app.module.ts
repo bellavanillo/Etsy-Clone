@@ -12,8 +12,6 @@ import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { AdminComponent } from './admin/admin.component';
 import { FormsModule } from '@angular/forms';
-import { AuthGuard } from './auth-guard.service';
-import { AuthenticationService } from './authentication/authentication.service';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -30,7 +28,7 @@ export const firebaseConfig = {
     ListingDetailComponent,
     AddComponent,
     EditComponent,
-    AdminComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +39,5 @@ export const firebaseConfig = {
   ],
   providers: [],
   bootstrap: [AppComponent],
-  providers: [AuthGuard, AuthenticationService]
 })
 export class AppModule { }
