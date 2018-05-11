@@ -8,7 +8,7 @@
 
 ## Description
 
-_This app will let you shop from different online artisans._
+_This app will let you shop from different online artisans in the pet supplies section of Etsy._
 
 ## Setup/Installation Requirements
 
@@ -18,12 +18,21 @@ _This app will let you shop from different online artisans._
 * _atom ._
 * _Then open your web browser of choice to index.html_
 
-### Specs
+## Specifications
 
-1) App should have a tab to search for items or shops.
-2) App should have a tab to sell on Etsy, register, sign in, or view their cart.
-3) App should have a tabs to view jewelry & accessories, clothes & shoes, home & living, wedding & party, toys & entertainment, art & collectibles, craft supplies & tools, and vintage.
-4) App should display different items to buy on home page.
+### Completed
+*
+*
+*
+* 
+
+
+### in Progress
+* Customers should be able to view listings in pet supplies section.
+* Customers should be able to edit listings.
+* Customers should be able to add listings.
+* Customers should be able to click on a listing and see the listing's details.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
